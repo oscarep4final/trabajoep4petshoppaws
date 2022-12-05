@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: just;
+}
+
+@font-face {
+    font-family: just;
+    src: url(fuentes/just_squash/Just\ Squash.otf);
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    background-color: darkseagreen;
+    /*flex padre*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+header{
+    width: 100%;
+    background-color: yellowgreen;
+    /*flex padre*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img{
+    width: 200px;
+    vertical-align: middle;
+    background-color: darkslategray;
+}
+
+#menu1{
+    width: 50%;
+    /*flex Padre*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#menu1 a{
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    /*flex Hijo*/
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#menu1 a:hover {
+    background-color: burlywood;
+    color: beige;
+}
+
+#imagen1{
+    width: 100%;
+}
+
+#aside1{
+    width: 100%;
+    /*flex padre*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#pf{
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    /*flex Hijo*/
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.descripcion{
+    border: 1px solid black;
+    width: 600px;
+    height: 200px;
+    text-align: justify;
+    background-color: palegreen;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 15px
+}
+
+#imagen2{
+    margin: 50px;
+    width: 200px;
+    /*flex Hijo*/
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#texto{
+    text-align: justify;
+    font-size: 20px;
+    
+    /*flex Hijo*/
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#aside2{
+    /*flex padre*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#img1{
+    width: 100px;
+    margin-left: 100px;
+}
+
+#img2 ,#img3{
+    width: 250px;
+}
+
+#img2{
+    margin-left: 150px;
+}
+
+#img3{
+    margin-left: 100px;
+}
+
+#pb{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+article{
+    /*flex hijo*/
+    flex-grow: 1;
+    flex-shrink: 1;
+    /*flex padre*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#txt{
+    font-size: 2em;
+    border-top: 1px solid black;
+    padding: 10px;
+    /*flex Hijo*/
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#perros{
+    width: 50%;
+    padding-left: 10px;
+}
+
+#gatos{
+    width: 110%;
+    padding-left: 10px;
+    float: left;
+}
+
+footer{
+    width: 100%;
+    /*flex padre*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-size: 2em;
+}
+
+#p{
+    align-items: center;
+}
+
+#inicia a{
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+}

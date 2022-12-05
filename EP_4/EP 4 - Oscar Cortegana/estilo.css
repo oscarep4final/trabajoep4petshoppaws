@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 1366px;
+    height: 625px;
+    background-color: darkseagreen;
+    margin: auto;
+}
+
+header{
+    height: 70px;
+    background-color: yellowgreen;
+}
+
+nav{
+    height: 18px;
+    background-color: white;
+}
+
+#Menu1{
+    width: 1366px;
+}
+
+#Menu1 a{
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    padding: 0.5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Menu1 a:hover{
+    background-color: burlywood;
+    color: beige;
+}
+
+#menuprin{
+    margin-left: 141px;
+    font-size: bold;
+}
+
+#cuidadohig{
+    margin-left: 141px;   
+}
+
+#alimentos{
+    margin-left: 141px;
+}
+
+#axperros{
+    margin-left: 141px;
+}
+
+#logo1{
+    width: 60px;
+    height: 60px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+#logosi{
+    width: 150px;
+    height: 60px;
+    margin-left: 48px;
+    background-color: darkslategray;
+}
+
+#barra{
+    width: 600px;
+    height: 50px;
+    margin-left: 65px;
+    margin-bottom: 5px;
+}
+
+#icono{
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+}
+
+#unete{
+    width: 100px;
+    height: 60px;
+    margin-left: 25px;
+}
+
+#carrito{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+#padre{
+    width: 250px;
+    height: 320px;
+    border: 5px double black;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: beige;
+}
+
+.hijo{
+    width: 172px;
+    height: 23px;
+    border: 3px double black;
+    background-color: palegreen;
+    margin-top: 20px;
+    margin-left: 45px;
+    font-size: bold;
+}
+
+#puntos{
+    width: 40px;
+    height: 40px;
+    margin-top: -35px;
+    margin-left: 5px;
+}
+
+#gatos{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#gato{
+    margin-top: 7px;
+    margin-left: 3px;
+}
+
+#perros{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#perro{
+    margin-top: 7px;
+    margin-left: 3px;
+}
+
+#padre2{
+    width: 1033px;
+    height: 450px;
+    margin-top: -320px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hijo2{
+    width: 220px;
+    height: 150px;
+    border: 3px double black;
+    background-color: palegreen;
+    margin-top: 20px;
+    margin-left: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#comida1{
+    width: 70px;
+    height: 120px;
+    margin-top: 10px;
+}
+
+#texto1{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: -70px;
+}
+
+#carrito12{
+    width: 60px;
+    height: 60px;
+    margin-top: -50px;
+    margin-left: 155px;
+}
+
+#texto2{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: -100px;
+}
+
+#texto3{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: -75px;
+}
+
+#texto4{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: -75px;
+}
+
+#texto5{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: -100px;
+}
+
+#texto6{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: -100px;
+}
